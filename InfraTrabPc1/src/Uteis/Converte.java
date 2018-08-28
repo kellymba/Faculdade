@@ -2,10 +2,10 @@ package Uteis;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import Dao.DAO;
 
 public class Converte {
+
 
 	public static ArrayList<String> listaString = new ArrayList<String>();
 	public static ArrayList<String> listaStringResposta = new ArrayList<String>();
@@ -76,7 +76,7 @@ public class Converte {
 		return mensagemFinal ;
 
 	}
-	
+
 	public static String leResultado(String localResposta) throws IOException {
 		boolean coisa =true;
 		String resultado="";

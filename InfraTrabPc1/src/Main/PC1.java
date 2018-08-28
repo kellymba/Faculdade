@@ -9,7 +9,6 @@ import Uteis.Converte;
 public class PC1 {
 	public static void main(String[] args) throws IOException {
 		//PC1
-		
 		Arquivo arquivo = new Arquivo();
 		Scanner tc = new Scanner(System.in);
 		String lugarGravar[] =
@@ -17,7 +16,8 @@ public class PC1 {
 					"C:\\Users\\Odecio\\Documents\\Pasta Compartilhada\\numero2Criptografado.txt",
 			"C:\\Users\\Odecio\\Documents\\Pasta Compartilhada\\numeroOPCCriptografado.txt"};
 		String localResposta="C:\\Users\\Odecio\\Documents\\Pasta Compartilhada\\Resposta\\Resposta.txt";
-		for (int i = 0; i < lugarGravar.length; i++) {
+		
+		for (int i = 0; i < 3; i++) {
 			arquivo=new Arquivo();
 			if(i<=1) {
 				System.out.println(i+1+"º Numero: ");}
